@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def data_extraction():
+def data_result():
     try:
         content = requests.get('https://www.detik.com/')
     except Exception():
