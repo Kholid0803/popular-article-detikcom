@@ -14,6 +14,7 @@ def data_extraction():
         webResult = webResult.findChildren(
             'a', {'class': 'media__link'}, href=True)
 
+        print("\nArtikel Terpopuler di Detik.com:\n")
         i = 0
         for res in webResult:
             title = res.text
